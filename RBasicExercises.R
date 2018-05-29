@@ -20,3 +20,5 @@ max.prices <- stock.prices==max(stock.prices)
 max.prices
 
 stock.prices[max.prices]
+
+#Matrices
