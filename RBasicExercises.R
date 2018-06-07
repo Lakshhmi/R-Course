@@ -21,4 +21,3 @@ max.prices
 
 stock.prices[max.prices]
 
-#Matrices
