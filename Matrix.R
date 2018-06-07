@@ -55,7 +55,9 @@ mat > 15
 mat + mat
 
 #Elementwise matrix multiplication
+
 mat * mat
 
 #Actual matrix multiplication
+
 mat %*% mat
