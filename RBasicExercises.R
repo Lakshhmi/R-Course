@@ -21,3 +21,5 @@ max.prices
 
 stock.prices[max.prices]
 
+#Matrix Operations
+colSums(stocks.matrix)
