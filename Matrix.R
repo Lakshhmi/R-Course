@@ -109,3 +109,32 @@ mat[1,]
 mat[,1]
 
 mat[1:3,]
+
+mat[,2:4]
+
+mat[1:2,1:3]
+
+mat[,9:10]
+
+mat[2:3,5:6]
+
+#Factor and Categorical Matrices
+
+animal <- c('d','c','d','c','c')
+factor(animal)
+
+#Nominal - No order
+#Ordinal - Order
+
+ord.cat <- c('cold','med','hot')
+
+temps <- c('cold','med','hot','hot','cold','med')
+
+fact.temps <- factor(temps,ordered = TRUE,labels <- c('cold','med','hot') )
+
+fact.temps
+
+summary(fact.temps)
+
+summary(temps)
+
