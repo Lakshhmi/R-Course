@@ -31,8 +31,11 @@ head(df)
 mean(df$mpg)
 
 df[df$cyl == 6,]
+#or
+subset(df,cyl == 6)
 
-df[c('am','gear','carb')]
+
+df[c('am','gear','carb')]  # or df[,c('am','gear','carb')]
 
 df$performance <- df$hp/df$wt
 
@@ -42,7 +45,11 @@ df$performance <- round(df$performance,digits = 2)
 
 head(df,3)
 
-df[(df$hp >100) & (df$wt >2.5),]
+mean(df[(df$hp >100) & (df$wt >2.5),]$mpg)
+
+print(subset(df,hp>100 & wt>2.5)$mpg)
+
+mean(subset(df,hp>100 & wt>2.5)$mpg)
 
 
-mean(df['Hornet Sportabout',])
+df['Hornet Sportabout',]$mpg
