@@ -10,8 +10,11 @@ Age <- c(22,25,26)
 Weight <- c(150,165,120)
 Sex <- c('M','M','F')
 
-dfPerson <- data.frame(Name,Age,Weight,Sex)
-dfPerson[c('Age','Weight','Sex')]
+#dfPerson <- data.frame(Name,Age,Weight,Sex)
+dfPerson <- data.frame(row.names=Name,Age,Weight,Sex)
+dfPerson
+
+
 
 is.data.frame(mtcars)
 
@@ -40,3 +43,6 @@ df$performance <- round(df$performance,digits = 2)
 head(df,3)
 
 df[(df$hp >100) & (df$wt >2.5),]
+
+
+mean(df['Hornet Sportabout',])
