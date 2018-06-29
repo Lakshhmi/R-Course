@@ -49,6 +49,8 @@ mean(df[(df$hp >100) & (df$wt >2.5),]$mpg)
 
 print(subset(df,hp>100 & wt>2.5)$mpg)
 
+subset(df,hp>100 & wt>2.5)$mpg
+
 mean(subset(df,hp>100 & wt>2.5)$mpg)
 
 
