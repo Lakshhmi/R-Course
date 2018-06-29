@@ -8,4 +8,5 @@ tail(ex)
 
 class(ex)
 
-tail(ex,3)
+
+
