@@ -26,3 +26,6 @@ library(xlsx)
 head(mtcars)
 
 write.xlsx(mtcars,"output-example.xlsx")
+
+
+install.packages('rvest')
