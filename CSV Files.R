@@ -29,3 +29,5 @@ write.xlsx(mtcars,"output-example.xlsx")
 
 
 install.packages('rvest')
+
+demo(package = 'rvest')
