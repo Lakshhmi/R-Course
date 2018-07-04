@@ -49,3 +49,5 @@ x
 if (is.matrix(x) == T){
   print('Is a Matrix')
 }else print('Is not a Matrix')
+
+x <- c(3,7,1)
