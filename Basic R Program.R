@@ -57,4 +57,10 @@ if(x[1] > x[2]){
   second <- x[2]
 }else if(x[2] > x[1]){
   first <- x[2]
+  second <- x[1]
 }
+if(x[3]>first & x[3] > second){
+  first <- x[3]
+  second <- first
+  third <- second
+}else if(x[3] < first & x[3] < second){}
