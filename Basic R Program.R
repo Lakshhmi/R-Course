@@ -51,3 +51,10 @@ if (is.matrix(x) == T){
 }else print('Is not a Matrix')
 
 x <- c(3,7,1)
+
+if(x[1] > x[2]){
+  first <- x[1]
+  second <- x[2]
+}else if(x[2] > x[1]){
+  first <- x[2]
+}
