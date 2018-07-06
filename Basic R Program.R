@@ -67,4 +67,6 @@ if(x[3]>first & x[3] > second){
   third <- x[3]
 }else{
   third <- second
+  second <- x[3]
 }
+print(paste(first,second,third))
