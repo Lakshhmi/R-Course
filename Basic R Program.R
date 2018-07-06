@@ -63,4 +63,8 @@ if(x[3]>first & x[3] > second){
   first <- x[3]
   second <- first
   third <- second
-}else if(x[3] < first & x[3] < second){}
+}else if(x[3] < first & x[3] < second){
+  third <- x[3]
+}else{
+  third <- second
+}
