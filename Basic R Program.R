@@ -75,3 +75,51 @@ print(paste(first,second,third))
 #####################
 # While Loops
 
+x <- 0
+while(x<10){
+  print(paste0('X is :',x))
+  x <- x+1
+  if(x==10){
+    print("X is now 10 break the loop")
+    break
+    print("Woo i printed too")
+  }
+}
+
+x <- 0
+while(x<10){
+  print(paste0('X is :',x))
+  x <- x+1
+  if(x==5){
+    print("X is now 5 break the loop")
+    break
+  }
+}
+
+
+# For Loop
+v <- c(1,2,3,4,5)
+for (temp.var in v) {
+  #print(temp.var)
+  results <- temp.var+1
+  print(results)
+}
+
+my.list <- list(c(1,2,3),mtcars,12)
+for(item in my.list){
+  print(item)
+}
+
+mat <- matrix(1:25,nrow = 5)
+for(num in mat){
+  print(num)
+}
+
+1:nrow(mat)
+
+for(row in 1:nrow(mat)){
+  for(col in 1:ncol(mat)){
+    print(paste('The element at row',row,'and col',col,'is',mat[row,col]))
+  }
+}
+  
