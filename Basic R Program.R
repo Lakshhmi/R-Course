@@ -70,3 +70,8 @@ if(x[3]>first & x[3] > second){
   second <- x[3]
 }
 print(paste(first,second,third))
+
+
+#####################
+# While Loops
+
