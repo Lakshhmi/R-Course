@@ -122,4 +122,6 @@ for(row in 1:nrow(mat)){
     print(paste('The element at row',row,'and col',col,'is',mat[row,col]))
   }
 }
-  
+
+#
+#Functions
