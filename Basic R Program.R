@@ -123,5 +123,15 @@ for(row in 1:nrow(mat)){
   }
 }
 
-#
+################
 #Functions
+name_of_func <- function(input1,input2,input3=45){
+  # Code execute
+  return()
+}
+
+hello <- function(name){
+  paste("Hello!",name)
+}
+
+hello('Lakshmi')
