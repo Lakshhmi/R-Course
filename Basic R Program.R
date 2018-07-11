@@ -152,3 +152,17 @@ times5 <- function(num3){
 
 print(times5(20))
 
+#Global Variable
+v <- "Global variable"
+stuff <- "Global stuff"
+
+fun <- function(){
+  print(v)
+  stuff <- "Reassign Global stuff inside the function fun"
+  print(stuff)
+}
+
+fun()
+print(stuff)
+
+
