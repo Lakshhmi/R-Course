@@ -135,3 +135,20 @@ hello <- function(name){
 }
 
 hello('Lakshmi')
+
+
+add_sum <- function(num1,num2){
+  my_sum <- num1+num2
+  return(my_sum)
+}
+
+print(add_sum(3,5))
+
+
+times5 <- function(num3){
+  my.result <- num3*5
+  return(my.result)
+}
+
+print(times5(20))
+
