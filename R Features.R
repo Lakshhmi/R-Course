@@ -49,3 +49,22 @@ is.data.frame(mtcars)
 v
 as.list(v)
 
+as.matrix(v)
+
+
+#Apply
+
+print(sample(x=1:10,1)) # return random number from 1 to 10
+print(sample(x=1:100,3)) # return random 3 numbers
+
+
+v <- c(1:5)
+v
+
+addrand <- function(x){
+  ran <- sample(1:100,1)
+  return(x+ran)
+}
+
+print(addrand(10))
+
