@@ -67,4 +67,6 @@ addrand <- function(x){
 }
 
 print(addrand(10))
+print(addrand(15))
 
+#Anonymous Functions
