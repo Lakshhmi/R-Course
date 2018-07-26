@@ -69,4 +69,23 @@ addrand <- function(x){
 print(addrand(10))
 print(addrand(15))
 
+result <- lapply(v,addrand)
+print(result)
+
+
+times2 <- function(num){
+  return(num*2)
+}
+times2(4)
+
+result <- sapply(v,times2)
+print(result)
+
 #Anonymous Functions
+
+function(num){num*2}
+
+
+result <- sapply(v,function(num){num*2})
+
+print(result)
