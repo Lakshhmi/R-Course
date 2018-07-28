@@ -89,3 +89,22 @@ function(num){num*2}
 result <- sapply(v,function(num){num*2})
 
 print(result)
+
+#Apply with multiple inputs
+
+v <- 1:5
+add_choice <-function(num,choice){
+  return(num+choice)
+}
+
+print(sapply(v,add_choice,choice=100))
+
+#Math functions with R
+
+#abs() - Computes the absolute value
+
+#sum() - returns sum of all the values present in the input
+
+#mean() - computes the arithmetic mean
+
+#round() - rounds values 
