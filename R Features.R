@@ -102,6 +102,11 @@ print(sapply(v,add_choice,choice=100))
 #Math functions with R
 
 #abs() - Computes the absolute value
+abs(2)
+abs(-2)
+v <- c(-2,3,9,-1)
+abs(v)
+
 
 #sum() - returns sum of all the values present in the input
 
