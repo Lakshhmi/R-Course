@@ -110,6 +110,37 @@ abs(v)
 
 #sum() - returns sum of all the values present in the input
 sum(v)
+
 #mean() - computes the arithmetic mean
 mean(v)
+
 #round() - rounds values 
+round(2.333456)
+round(2.333456,digits = 2)
+round(2.345743,2)
+
+
+# Regular Expressions
+
+#grepl - returns boolean value
+#grep - returns index locations
+
+
+text <- "Hi there, do you know who you are voting for?"
+
+grepl("voting",text)
+grepl("dog",text)
+
+grepl("do you",text)
+
+v <- c('a','b','c','d','d')
+grepl('b',v)
+
+grep('b',v)
+grep('d',v)
+
+grepl("hello","hello world")
+
+grep("a",c("a","b"))
+
+#Date and timestamps
