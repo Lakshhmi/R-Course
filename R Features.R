@@ -109,7 +109,7 @@ abs(v)
 
 
 #sum() - returns sum of all the values present in the input
-
+sum(v)
 #mean() - computes the arithmetic mean
-
+mean(v)
 #round() - rounds values 
