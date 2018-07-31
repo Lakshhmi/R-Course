@@ -144,3 +144,13 @@ grepl("hello","hello world")
 grep("a",c("a","b"))
 
 #Date and timestamps
+
+Sys.Date()
+class(Sys.Date())
+
+c <- "1990-01-20"
+class(c)
+
+my.date <- as.Date(c)
+class(my.date)
+
