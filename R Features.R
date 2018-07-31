@@ -154,3 +154,13 @@ class(c)
 my.date <- as.Date(c)
 class(my.date)
 
+my.date <- as.Date("Nov-19-04",format = "%b-%d-%y")
+my.date
+
+
+# %d - day of the month (decimal number)
+# %m - Month (decimal number)
+# %b - Month (abbreviated)
+# %B - Month (Full name)
+# %y - Year (2 digit)
+# %Y 0 Year (4 digit)
