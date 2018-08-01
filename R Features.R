@@ -164,3 +164,6 @@ my.date
 # %B - Month (Full name)
 # %y - Year (2 digit)
 # %Y 0 Year (4 digit)
+
+
+as.Date("01-jun-2002",format = "%B,%d,%y")
