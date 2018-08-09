@@ -18,3 +18,4 @@ summary(flights)
 # distinct()
 # mutate() and transmute()
 # summarise()
+# file:///C:/Lakshmi/R-Course/R Programming/Data Manipulation.R
