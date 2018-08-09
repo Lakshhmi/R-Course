@@ -27,3 +27,11 @@ head(filter(flights,month==11,day==3,carrier=='AA'))
 
 
 #Slice() - allow to select by positions
+slice(flights,1:10)
+
+#arrange() - similar to filter but arrange() - order by columns
+
+head(arrange(flights,year,month,day,air_time))
+
+
+head(arrange(flights,year,month,day,desc(air_time)))
