@@ -35,3 +35,8 @@ head(arrange(flights,year,month,day,air_time))
 
 
 head(arrange(flights,year,month,day,desc(air_time)))
+
+
+#Select()
+head(select(flights,carrier))
+head(select(flights,carrier,arr_time))
