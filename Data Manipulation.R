@@ -40,3 +40,20 @@ head(arrange(flights,year,month,day,desc(air_time)))
 #Select()
 head(select(flights,carrier))
 head(select(flights,carrier,arr_time))
+head(select(flights,carrier,arr_time,month))
+
+
+#rename() - allows to quickly rename the column
+
+head(rename(flights,airlines_carrier=carrier))
+
+
+#distinct() - allows to select distinct or unique values in a column or table
+
+distinct(select(flights,carrier))
+
+
+#mutate()
+
+head(mutate(flights,new_col=arr_delay-dep_delay))
+
