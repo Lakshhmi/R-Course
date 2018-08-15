@@ -59,7 +59,22 @@ head(mutate(flights,new_col=arr_delay-dep_delay))
 
 head(mutate(flights,new_col=arr_delay*dep_delay))
 
+#transmute()
 head(transmute(flights,new_col=arr_delay*dep_delay))
+
+
+#summarise()
+
+summarise(flights,avg_air_time=mean(air_time,na.rm = TRUE))
+
+summarise(flights,total_time=sum(air_time,na.rm = TRUE))
+
+#sample_n() - return random number of rows
+
+sample_n(flights,10)
+
+#sample_frac()
+sample_frac(flights,0.1)
 
 
 
