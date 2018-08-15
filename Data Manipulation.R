@@ -57,3 +57,9 @@ distinct(select(flights,carrier))
 
 head(mutate(flights,new_col=arr_delay-dep_delay))
 
+head(mutate(flights,new_col=arr_delay*dep_delay))
+
+head(transmute(flights,new_col=arr_delay*dep_delay))
+
+
+
