@@ -76,5 +76,6 @@ sample_n(flights,10)
 #sample_frac()
 sample_frac(flights,0.1)
 
+sample_frac(flights,0.5)
 
 
