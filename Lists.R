@@ -30,3 +30,6 @@ double.list <- list(mynamedlist,mynamedlist)
 double.list
 
 str(mynamedlist)
+
+class(mynamedlist)
+class(df)
