@@ -1,3 +1,5 @@
+#Functions Exercises
+
 num_check <- function(num,vec){
   i=1
   for(i in vec){
