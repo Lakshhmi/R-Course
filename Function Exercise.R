@@ -1,5 +1,6 @@
 #Functions Exercises
 
+# Check if the given no is in the vector
 num_check <- function(num,vec){
   i=1
   for(i in vec){
