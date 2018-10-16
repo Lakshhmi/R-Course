@@ -20,7 +20,7 @@ num_check <- function(num,vec){
 num_check(3,c(1,2,3))
 
 
-
+# Count how many times the number appear in the vector
 num_count <- function(num,vec){
   i=1
   my.count <- 0
