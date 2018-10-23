@@ -46,3 +46,8 @@ formal <- function(name='Sam',title='Sir'){
 }
 
 formal()
+
+formal('Issac Newton')
+
+var <- formal('Marie Curie','Ms.')
+var
