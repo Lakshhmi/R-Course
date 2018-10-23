@@ -40,3 +40,9 @@ vec1 <- c(2,3,4,5,2,3,2,7,2,9)
 for(i in vec1){
   print(paste(vec1[i], "i=",i))
 }
+
+formal <- function(name='Sam',title='Sir'){
+  return(paste(title,' ',name))
+}
+
+formal()
