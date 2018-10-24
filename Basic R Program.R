@@ -96,6 +96,24 @@ if (temp > 80){
   print("Its really cold outside!")
 }
 
+# Items sold that day
+ham <- 10
+cheese <- 10
+
+# Report to HQ
+report <- 'blank'
+
+
+if(ham >= 10 & cheese >= 10){
+  report <- "Strong sales of both items"
+  
+}else if(ham == 0 & cheese == 0){
+  report <- "Nothing sold!"
+}else{
+  report <- 'We had some sales'
+}
+print(report)
+
 
 
 
