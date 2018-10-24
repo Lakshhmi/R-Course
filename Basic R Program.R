@@ -70,6 +70,34 @@ if(x[3]>first & x[3] > second){
   second <- x[3]
 }
 print(paste(first,second,third))
+#####################
+
+temp <- 30
+
+if (temp > 80){
+  print("Hot outside!")
+} else if(temp<80 & temp>50){
+  print('Nice outside!')
+} else if(temp <50 & temp > 32){
+  print("Its cooler outside!")
+} else{
+  print("Its really cold outside!")
+}
+
+temp <- 75
+
+if (temp > 80){
+  print("Hot outside!")
+} else if(temp<80 & temp>50){
+  print('Nice outside!')
+} else if(temp <50 & temp > 32){
+  print("Its cooler outside!")
+} else{
+  print("Its really cold outside!")
+}
+
+
+
 
 
 #####################
