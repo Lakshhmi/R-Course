@@ -182,4 +182,11 @@ Sys.Date()
 today <- Sys.Date()
 today
 
+# YYYY-MM-DD
+as.Date('1990-11-03')
 
+# Using Format
+as.Date("Nov-03-90",format="%b-%d-%y")
+
+# Using Format
+as.Date("November-03-1990",format="%B-%d-%Y")
