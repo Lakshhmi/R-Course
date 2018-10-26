@@ -78,4 +78,9 @@ sample_frac(flights,0.1)
 
 sample_frac(flights,0.5)
 
+install.packages('tidyr',repos = 'http://cran.us.r-project.org')
+
+library(tidyr)
+library(data.table)
+
 
