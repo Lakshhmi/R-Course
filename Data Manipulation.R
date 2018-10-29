@@ -113,3 +113,7 @@ stocks <- data.frame(
 )
 stocks
 
+stocksm <- stocks %>% gather(stock, price, -time)
+stocksm %>% spread(stock, price)
+
+stocksm %>% spread(time, price)
