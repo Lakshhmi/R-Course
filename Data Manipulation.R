@@ -95,3 +95,21 @@ q4 <- runif(9, min=0, max=100)
 df <- data.frame(comp=comp,year=yr,Qtr1 = q1,Qtr2 = q2,Qtr3 = q3,Qtr4 = q4)
 
 df
+
+
+#Gather() and Spread()
+# Using Pipe Operator
+
+head(df %>% gather(Quarter,Revenue,Qtr1:Qtr4))
+
+# With just the function
+head(gather(df,Quarter,Revenue,Qtr1:Qtr4))
+
+stocks <- data.frame(
+  time = as.Date('2009-01-01') + 0:9,
+  X = rnorm(10, 0, 1),
+  Y = rnorm(10, 0, 2),
+  Z = rnorm(10, 0, 4)
+)
+stocks
+
