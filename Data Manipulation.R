@@ -117,3 +117,13 @@ stocksm <- stocks %>% gather(stock, price, -time)
 stocksm %>% spread(stock, price)
 
 stocksm %>% spread(time, price)
+
+
+# Separate and Unite
+
+#Separate
+df <- data.frame(x = c(NA, "a.x", "b.y", "c.z"))
+df
+
+df %>% separate(x, c("ABC", "XYZ"))
+
