@@ -127,3 +127,12 @@ df
 
 df %>% separate(x, c("ABC", "XYZ"))
 
+# Unite()
+head(mtcars)
+
+unite_(mtcars, "vs.am", c("vs","am"),sep = '.')
+
+# Separate is the complement of unite
+mtcars %>%
+  unite(vs_am, vs, am) %>%
+  separate(vs_am, c("vs", "am"))
