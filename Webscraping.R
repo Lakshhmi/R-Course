@@ -17,3 +17,8 @@ lego_movie %>%
 lego_movie %>%
   html_nodes("#titleCast .itemprop span") %>%
   html_text()
+
+lego_movie %>%
+  html_nodes("table") %>%
+  .[[3]] %>%
+  html_table()
