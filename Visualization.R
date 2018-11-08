@@ -11,3 +11,7 @@ library(ggplot2)
 df <- movies
 
 qplot(x=year, y=rating, data = df, geom = "density2d")
+
+pl <- ggplot(movies,aes(x = year,y=rating))
+
+pl + geom_bin2d()
