@@ -14,4 +14,9 @@ qplot(x=year, y=rating, data = df, geom = "density2d")
 
 pl <- ggplot(movies,aes(x = year,y=rating))
 
+#2D Bin Chart
 pl + geom_bin2d()
+
+
+# Control bin sizes
+pl + geom_bin2d(binwidth=c(2,1))
